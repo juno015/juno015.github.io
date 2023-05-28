@@ -65,5 +65,5 @@ function end()
 
 function move()
 {
-  location.href='ss.html';
+  location.href='https://juno015.github.io/ss';
 }
