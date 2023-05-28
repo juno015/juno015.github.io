@@ -1,0 +1,30 @@
+.main 
+{
+    position: absolute;
+    left : 300px;
+    top : 500px;
+ 
+}
+
+#left
+{
+    border-left : 1px solid black;
+    border-collapse : collapse;
+
+    text-align: center;
+    margin: 30px;
+}
+
+#right
+{
+    text-align: center;
+    margin: 30px;
+}
+
+#arrow
+{
+    text-align: right;
+    border-bottom : 1px solid black;
+}
+
+
