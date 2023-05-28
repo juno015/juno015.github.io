@@ -1,0 +1,36 @@
+.main 
+{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    text-align : center;
+}
+
+#left
+{
+    text-align: center;
+    margin: 30px;
+}
+
+#right
+{
+    text-align: center;
+    margin: 30px;
+}
+
+#arrow
+{
+    text-align: right;
+    border-bottom : 1px solid black;
+}
+
+
+@media screen and (min-width: 1000px) {
+	.main 
+{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    text-align : center;
+}
+}
