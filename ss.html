@@ -1,0 +1,268 @@
+<!doctype = html>
+<html lang = "ko">
+<head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="ss.css">
+    <script type="text/javascript" src="ss.js"></script>
+</head>
+<body>
+    <ul>
+        <li>수강신청시스템</li>
+        <div class = "left">
+            <li><a href="#">전자시간표(수업계획서)</a></li>
+            <li><a href="#">수강신청</a></li>
+            <li><a href="#">수강인원조회</a></li>
+            <li><a href="#">성적조회</a></li>
+            <li><a href="#">수강신청확인서출력</a></li>
+            <li><a href="#">성적포기신청</a></li>
+            <li><a href="#">재수강과목 지정</a></li>
+        </div>
+    </ul>
+
+    <div class = "end">
+            <input type='button' 
+                   value='로그아웃' 
+                   onclick="location.href='main.html'"/>
+    </div>
+
+    <div class = "main">
+        <header> 수강신청 </header>
+        <table>
+            <tbody>
+              <tr>
+                <td class ="back">학번</td>
+                <td class ="back">학부(과)</td>
+              </tr>
+              <tr>
+                <td class ="te">123</td>
+                <td class ="te">123</td>
+              </tr>
+              <tr>
+                <td class ="back">이름</td>
+                <td class ="back">전공</td>
+              </tr>
+              <tr>
+                <td class ="te">123</td>
+                <td class ="te">123</td>
+              </tr>
+              <tr>
+                <td class ="back">학년</td>
+                <td class ="back">학적구분</td>
+              </tr>
+              <tr>
+                <td class ="te">123</td>
+                <td class ="te">123</td>
+              </tr>
+              <tr>
+                <td class ="back">수강가능학점</td>
+                <td class ="back">직전학기평점</td>
+              </tr>
+              <tr>
+                <td class ="te">123</td>
+                <td class ="te">123</td>
+              </tr>
+            </tbody>
+        </table>
+        <h3> html 연습용 </h3>
+        <table class = "table1" id = "table1" >
+            <tbody>
+              <tr>
+                <td class ="back"> 학수분반 </td>
+              </tr>
+              <tr>
+                <td class ="in"> <input id = "push_button" type = "text" size="6" maxlength="8" onKeypress="javascript:if(event.keyCode==13) {is_checked1()}"/> </td>
+              </tr>
+              <tr>
+                <td class ="inter">
+                    <input type='button' 
+                           value='수강신청' 
+                           onclick='is_checked1();'>
+                </td>
+              </tr>
+              <tr>
+
+              </tr>
+            </tbody>
+        </table>
+        <table class = "table2" id = "add">
+            <tbody>
+               <tr>
+                    <td class ="sch_main"></td>
+                    <td class ="num">1</td>
+                    <td class ="num">2</td>
+                    <td class ="num">3</td>
+                    <td class ="num">4</td>
+                    <td class ="num">5</td>
+                    <td class ="num">6</td>
+                    <td class ="num">7</td>
+                    <td class ="num">8</td>
+                    <td class ="num">9</td>
+                    <td class ="num">10</td>
+                    <td class ="num">11</td>
+                    <td class ="num">13</td>
+                    <td class ="num">14</td>
+                    <td class ="num">15</td>
+                  </tr>
+              <tr>
+                <td class ="sch_main">월</td>
+                <td id ="sch1"></td>
+                <td id ="sch2"></td>
+                <td id ="sch3"></td>
+                <td id ="sch4"></td>
+                <td id ="sch5"></td>
+                <td id ="sch6"></td>
+                <td id ="sch7"></td>
+                <td id ="sch8"></td>
+                <td id ="sch9"></td>
+                <td id ="sch10"></td>
+                <td id ="sch11"></td>
+                <td id ="sch12"></td>
+                <td id ="sch13"></td>
+                <td id ="sch14"></td>
+              </tr>
+              <tr>
+                <td class ="sch_main">화</td>
+                <td id ="sch15"></td>
+                <td id ="sch16"></td>
+                <td id ="sch17"></td>
+                <td id ="sch18"></td>
+                <td id ="sch19"></td>
+                <td id ="sch20"></td>
+                <td id ="sch21"></td>
+                <td id ="sch22"></td>
+                <td id ="sch23"></td>
+                <td id ="sch24"></td>
+                <td id ="sch25"></td>
+                <td id ="sch26"></td>
+                <td id ="sch27"></td>
+                <td id ="sch28"></td>
+              </tr>
+              <tr>
+                <td class ="sch_main">수</td>
+                <td id ="sch29"></td>
+                <td id ="sch30"></td>
+                <td id ="sch31"></td>
+                <td id ="sch32"></td>
+                <td id ="sch33"></td>
+                <td id ="sch34"></td>
+                <td id ="sch35"></td>
+                <td id ="sch36"></td>
+                <td id ="sch37"></td>
+                <td id ="sch38"></td>
+                <td id ="sch39"></td>
+                <td id ="sch40"></td>
+                <td id ="sch41"></td>
+                <td id ="sch42"></td>
+              </tr>
+              <tr>
+                <td class ="sch_main">목</td>
+                <td id ="sch43"></td>
+                <td id ="sch44"></td>
+                <td id ="sch45"></td>
+                <td id ="sch46"></td>
+                <td id ="sch47"></td>
+                <td id ="sch48"></td>
+                <td id ="sch49"></td>
+                <td id ="sch50"></td>
+                <td id ="sch51"></td>
+                <td id ="sch52"></td>
+                <td id ="sch53"></td>
+                <td id ="sch54"></td>
+                <td id ="sch55"></td>
+                <td id ="sch56"></td>
+              </tr>
+              <tr>
+                <td class ="sch_main">금</td>
+                <td id ="sch57"></td>
+                <td id ="sch58"></td>
+                <td id ="sch59"></td>
+                <td id ="sch60"></td>
+                <td id ="sch61"></td>
+                <td id ="sch62"></td>
+                <td id ="sch63"></td>
+                <td id ="sch64"></td>
+                <td id ="sch65"></td>
+                <td id ="sch66"></td>
+                <td id ="sch67"></td>
+                <td id ="sch68"></td>
+                <td id ="sch69"></td>
+                <td id ="sch70"></td>
+              </tr>
+              <tr>
+                <td class ="sch_main">토</td>
+                <td id ="sch71"></td>
+                <td id ="sch72"></td>
+                <td id ="sch73"></td>
+                <td id ="sch74"></td>
+                <td id ="sch75"></td>
+                <td id ="sch76"></td>
+                <td id ="sch77"></td>
+                <td id ="sch78"></td>
+                <td id ="sch79"></td>
+                <td id ="sch80"></td>
+                <td id ="sch81"></td>
+                <td id ="sch82"></td>
+                <td id ="sch83"></td>
+                <td id ="sch84"></td>
+              </tr>
+
+            </tbody>
+        </table>
+        </div>
+        
+        <div class = "left-table">
+            <table class = "table3" id = "del">
+                <tbody>
+                   <tr id = "del1">
+                        <td class ="sch_main">삭제</td>
+                    </tr>
+                  <tr id = "cls">
+                    <td class ="sch_main">이수구분</td>
+                  </tr>
+                  <tr id = "sch_number">
+                    <td class ="sch_main">학수분반</td>
+                  </tr>
+                  <tr id = "name">
+                    <td class ="sch_main">교과목명</td>
+                  </tr>
+                  <tr id = "sch1_number">
+                    <td class ="sch_main">학점/시수</td>
+                  </tr>
+                  <tr id = "sch2_number">
+                    <td class ="sch_main">수강정원</td>     
+                  </tr>
+                  <tr id = "sch3_number">
+                    <td class ="sch_main">수강인원</td>
+                  </tr>
+                  <tr id = "professor">
+                    <td class ="sch_main">담당교수</td>
+                 </tbody>
+            </table>
+            <table class = "temp">
+                <tbody>
+                    <tr>
+                        <td id = "counting" >신청과목수 : 0 </td>
+                    </tr>
+                    <tr >
+
+                        <td id = "counting1"> 신청학점 : 0 </td>
+                    </tr>
+                    <tr>
+                        <td id = "counting2"> 수강가능학점 : </td>
+                    </tr>
+            </tbody>
+        </table>
+            </div>
+    </div>
+    </div>
+    
+</body>
+</html>
+<!-- 2023 04 05 ui 전체적인 디자인, 특정 상황에서의 ui 설정-->
+<!-- 2023 04 06 화면 고정-->
+<!-- 2023 04 07 ui 전체적인 디자인 수정(왼쪽 네비게이션) 버튼 기능 추가-->
+<!-- 2023 04 08 버튼을 누르면 켈린더, 표에 추가, 입력받지 않는 것 감지, 타이머-->
+<!-- 2023 04 09 스케쥴의 값 감지, temp 데이터 자동 수정, 메인페이지 생성, 사용하지 않는 html 페이지 생성-->
+<!-- 2023 04 10 메인페이지 설정, 스케줄값 받아오기 등-->
+<!-- 2023 04 14 타이머, 시간 설정 -->
+<!-- 2023 04 15 오류 수정, 완료 -->

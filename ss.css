@@ -1,0 +1,173 @@
+ul
+{
+
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 0px;
+  width: 300px;
+  height: 500px;
+  overflow: auto;
+  position: absolute;
+  margin-top: 50px;
+  text-align: center;
+}
+
+ul .left
+{
+    text-align: left;
+    background: #c0bebe;
+    font-size: 12px;
+}
+.left
+{
+    margin-top: 10px;
+}
+li a 
+{
+  border:1px solid #878888;
+  border-left: none;
+  border-right: none;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: #000;
+  font-weight: bold;
+}
+
+li a:hover 
+{
+  background: #333;
+  color: #fff;
+}
+
+li .Sub
+{
+
+  background : #333;
+  color: #fff;
+}
+
+.end 
+{
+  margin-left: 240px;
+}
+
+.main 
+{
+    margin-top: -20px;
+    margin-left: 360px;
+    width: 70%;
+}
+
+table{
+    display:flex;
+}
+
+table .back{
+    background-color: #ece6cc;
+    font-weight: bold;   
+}
+
+tbody
+{
+        display:flex
+}
+th,td
+{
+    display:block;
+    border : 1px solid #aaa9a7;
+    border-collapse : collapse;
+    text-align: center;
+    
+}
+
+td
+{
+    font-size: 12px;
+    width: 180px;
+    height: 15px;
+}
+
+.table1 td
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.table1 .in
+{
+    background-color:#cce8ec;
+}
+.table1 .inter
+{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.table2
+{
+    margin-top: 10px;
+    width: 50px;
+}
+
+.table2 .sch_main
+{
+    color: #fff; 
+    background-color: #127897;
+}
+
+.table2 td
+{
+    width: 60px;
+}
+
+.table3
+{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.table3 td
+{
+    width: 119px;
+    height: 20PX;
+
+}
+
+.table3 .sch
+{
+    text-align: center;
+}
+
+.table3 td:nth-child(even){
+    background-color:#FFFFFF;
+    color:#000000;
+  
+}
+
+.table3 td:nth-child(n+2):nth-child(2n + 1){
+    background-color:#cce8ec;
+    color:#000000;
+  
+}
+
+.table3 .sch_main
+{
+    color: #fff; 
+    background-color: #127897;
+}
+
+.temp td
+{
+    width: 324px;
+}
+
+.left-table{
+    left : 850px;
+    top: -295px;
+    position : relative;
+    width: 100px;
+}
